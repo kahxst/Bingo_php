@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,0.45) 0%, rgba(255,222,0,0.45) 24%, rgba(0,255,29,0.45) 48%, rgba(0,26,255,0.45) 73%, rgba(171,0,255,0.45) 100%);
+}
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+}
+
+form input{
+    border: black solid 2px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-size: 15pt;
+    border-radius:20px ;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.p1{
+    margin: 5px;
+}
+
+.p2{
+    margin: 5px;
+}
+
+.b{
+    height: 65vh;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    width: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.titulo{
+    /* border: purple 1px solid; */
+    height: 15%;
+    align-items: center;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+
+.resto{
+    /* border: purple 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 85%;
+    align-content: space-around;
+    align-items: baseline;
+}
+
+
+.indice{
+    border: rgb(0, 0, 0) solid 2px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    font-size: 15pt;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+
+
+
+/* ///////// */
+.um{
+    border: red 2px solid;
+    background-color: rgba(255, 0, 0, 0.397);
+    border-radius: 25px;
+
+    
+}
+.um h1{
+    color: rgb(211, 3, 3);
+}
+/* ///////// */
+.dois{
+    border: rgb(255, 230, 0) 2px solid;
+    background-color:rgba(255, 230, 0, 0.397);
+    border-radius: 25px;
+
+    
+}
+.dois h1{
+    color: rgb(202, 182, 0);
+}
+/* ///////// */
+.tres{
+    border: rgb(35, 209, 0) 2px solid;
+    background-color: rgba(9, 255, 0, 0.397);
+    border-radius: 25px;
+
+    
+}
+.tres h1{
+    color: rgb(33, 163, 0);
+}
+/* ///////// */
+.quatro{
+    border: rgb(0, 47, 255) 2px solid;
+    background-color: rgba(0, 17, 255, 0.397);
+    border-radius: 25px;
+
+    
+}
+.quatro h1{
+    color: rgb(3, 41, 211);
+}
+/* ///////// */
+.cinco{
+    border: rgb(173, 17, 147) 2px solid;
+    background-color: rgba(175, 16, 114, 0.397);
+    border-radius: 25px;
+
+    
+}
+.cinco h1{
+    color: rgb(211, 3, 183);
+}
+/* ///////// */
